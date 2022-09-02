@@ -9,7 +9,8 @@ function getDate() {
 async function main() {
   while (true) {
     try {
-      console.log(getData());
+      // console.log(getData());
+      console.log(getDate());
     } catch (e) {
       console.log(e);
     } finally {
@@ -17,5 +18,4 @@ async function main() {
     }
   }
 }
-
 main();
